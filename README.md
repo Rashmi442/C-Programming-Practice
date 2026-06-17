@@ -1,0 +1,1 @@
+This repository is a collection of C programs that I write while learning and practicing programming. It serves as a personal space where I regularly upload solutions, experiments, and practice exercises to improve my coding skills and strengthen my understanding of the C language.
