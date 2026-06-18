@@ -18,8 +18,7 @@ int main()
 
     for(int i=0;i<n;i++)
     {
-        newnode=(struct Node*)malloc(sizeof(struct Node));
-
+        newnode=(struct Node*)malloc(sizeof(struct Node));z
         if(newnode==NULL)
         {
             printf("Memory allocation failed\n");
