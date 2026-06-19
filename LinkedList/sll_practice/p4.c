@@ -1,6 +1,22 @@
+/*Problem 4: Online Food Order Management System (Singly Linked List)
+Problem Statement
+A restaurant receives customer orders throughout the day. Each order contains:
+Order ID
+Customer Name
+Food Item
+Quantity
+Total Bill
+
+
+Write a menu-driven C program using a Singly Linked List to:
+Add a new customer order.
+Display all orders.
+Search an order by Order ID.
+Cancel an order.
+Count total pending orders.
+Exit.*/
 #include<stdio.h>
 #include<stdlib.h>
-
 struct Order
 {
     int order_id;
@@ -200,9 +216,7 @@ int main()
                         printf("Order cancelled successfully.\n");
                     }
                 }
-
                 break;
-
             case 5:
                 count=0;
                 temp=head;
